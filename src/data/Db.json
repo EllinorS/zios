@@ -1,0 +1,79 @@
+{
+      "users": [
+        {
+            "id": 1,
+            "name": "Clavier azerty",
+            "email": "alice@mail.com",
+            "password": "alice123",
+            "role": "admin"
+        },
+        {
+            "id": 2,
+            "name": "Marc Jupiter",
+            "email": "bob@mail.com",
+            "password": "bob123",
+            "role": "redacteur"
+        },
+        {
+            "id": 3,
+            "name": "Brigitte Oui",
+            "email": "bibi@mail.com",
+            "password": "bibou123",
+            "role": "user"
+        }
+    ],
+
+
+  "articles": [
+    {
+      "id": 5,
+      "title": "Découvrir la puissance de Python pour l’automatisation",
+      "author": 1,
+      "image": "/img/web-design.png",
+      "category": "Programmation et développement",
+      "sub_cat": "Python",
+      "excerpt": "Comprendre les bases des applications modernes.",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non justo in ligula varius dignissim. Maecenas sed sagittis lorem. Duis et risus eu erat fringilla volutpat. Donec suscipit sem in turpis tincidunt, non bibendum turpis pretium. Sed tristique, mi ac vestibulum imperdiet, velit libero viverra risus, sit amet vehicula nibh magna id nunc. Fusce in enim id velit sagittis dignissim."
+    },
+    {
+      "id": 4,
+      "title": "Comment l'innovation numérique transforme les entreprises",
+      "author": 1,
+      "image": "/img/entreprise-innovation.png",
+      "category": "Entreprise et Innovation",
+      "sub_cat": "Transformation numérique",
+      "excerpt": "Découvrir comment les technologies web permettent aux entreprises d'innover plus rapidement.",
+      "content": "La transformation numérique n’est plus un choix : c’est une nécessité pour rester compétitif. Grâce aux technologies web, les entreprises modernisent leurs outils, automatisent leurs processus et améliorent leur communication interne comme externe. L’adoption de solutions en ligne permet d’accélérer les cycles de décision, de mieux comprendre les besoins des clients et de tester rapidement de nouvelles idées. L’innovation n’est plus réservée aux grandes organisations : les PME peuvent elles aussi s’appuyer sur des plateformes modernes pour gagner en agilité et en efficacité."
+    },
+    {
+      "id": 3,
+      "title": "Tendances du design web en 2025",
+      "author": 1,
+      "image": "/img/web-design.png",
+      "category": "Web et Design",
+      "sub_cat": "UI/UX",
+      "excerpt": "Un aperçu des nouvelles pratiques de design qui façonnent les sites modernes.",
+      "content": "Le design web évolue constamment, influencé par les attentes des utilisateurs et l’arrivée de nouveaux outils. En 2025, la tendance est aux interfaces épurées, accessibles et centrées sur l’humain. Les micro-interactions, les animations subtiles et les mises en page modulaires améliorent la clarté tout en créant une expérience agréable. Les designers accordent également une importance accrue à la performance et à l’éco-conception, réduisant le poids des pages pour offrir des sites plus responsables. Une bonne expérience utilisateur ne se limite plus à l’esthétique : elle repose sur une conception réfléchie et durable."
+    },
+    {
+      "id": 2,
+      "title": "L’IA au service de la création web",
+      "author": 1,
+      "image": "/img/donnees-ia.png",
+      "category": "Données et IA",
+      "sub_cat": "IA générative",
+      "excerpt": "Explorer comment l'intelligence artificielle transforme la manière de concevoir et développer des sites web.",
+      "content": "L’intelligence artificielle s’impose désormais comme un outil incontournable pour les professionnels du web. Qu’il s’agisse de générer du contenu, d’automatiser du code ou d’analyser le comportement des utilisateurs, les algorithmes permettent aujourd’hui d’aller beaucoup plus vite tout en améliorant la qualité. Les IA génératives peuvent créer des maquettes, suggérer des améliorations UX, optimiser les performances d’un site ou même écrire une partie du code. Les développeurs ont ainsi la possibilité de se concentrer sur la logique et la créativité, laissant les tâches répétitives à l’intelligence artificielle."
+    },
+    {
+      "id": 1,
+      "title": "Comprendre l'infrastructure Cloud moderne",
+      "author": 1,
+      "image": "/img/systemes-cloud.png",
+      "category": "Systèmes et Cloud",
+      "sub_cat": "Infrastructure",
+      "excerpt": "Découvrir comment le cloud transforme la manière de déployer et gérer des applications web.",
+      "content": "Le cloud a profondément changé la façon dont les applications web sont construites et mises en production. Au lieu de gérer des serveurs physiques, les équipes se reposent désormais sur des plateformes flexibles capables de s’adapter automatiquement à la charge. Des services comme le stockage, les bases de données ou le déploiement continu sont accessibles en quelques clics. Cette approche permet de réduire les coûts, d’améliorer la sécurité et d’accélérer le développement. Comprendre ces concepts devient essentiel pour tout développeur souhaitant travailler sur des projets modernes."
+    }
+  ]
+}

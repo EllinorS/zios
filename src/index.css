@@ -1,0 +1,60 @@
+/* :root {
+    --
+
+} */
+/* DARK THEME */
+body[data-theme="light"] {
+  background: #f5f5f5;
+  color: #111;
+}
+
+body[data-theme="dark"] {
+  background: #111;
+  color: #f5f5f5;
+}
+
+.custom-height-50 {
+  height: 50vh;
+}
+
+.clip {
+  clip-path: polygon(0px 30px, 100% 0px, 100% calc(100% - 30px), 0px 100%);
+}
+
+.clipt {
+  clip-path: polygon(0% 40px, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.object-fit {
+  object-fit: cover;
+  object-position: center;
+  align-items: center;
+}
+
+.fixed-card {
+  height: 30vh;
+  width: 30vh;
+}
+
+.border-radius {
+  border-radius: 12px;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.full-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.img-cover {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
