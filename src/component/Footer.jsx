@@ -80,11 +80,6 @@ const Footer = () => {
       </p>
 
     </div>
-  </div>
-        <div className="content has-text-centered">
-        <p>Copyright © Geeks</p>
-
-      </div>
 </footer>
 </>
 
